@@ -8,7 +8,7 @@
     L'édition 2023 se déroulera du 7 au 8 décembre de 16h38 à 8h06
   </li>
   <li> site officiel:  
-  <a href="https://www.nuitdelinfo.com/">
+  <a href="https://www.nuitdelinfo.com/"> lien vers le site officiel de la nuit de l'info </a>
     
   </li>
 </ul>
