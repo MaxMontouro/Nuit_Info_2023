@@ -6,14 +6,14 @@
   </li>
   <li> Cette équipe est uniqement composé d'étudiant en BUT Informatique à l'IUT de Bayonne</li>
   <li> Les Membres sont:  
-  -Lucas MARROT  
-  -Clément MOURGUE
-  -Maxime MONTOURO  
-  -Mattin GUIHENEUF  
-  -Théo LAGUE  
-  -Maxime ETCHECOPAR  
-  -Edouard CLEMENCEAU  
-  -Remi GENTIL
+  -Lucas MARROT  </br>
+  -Clément MOURGUE </br>
+  -Maxime MONTOURO  </br>
+  -Mattin GUIHENEUF  </br>
+  -Théo LAGUE  </br>
+  -Maxime ETCHECOPAR  </br>
+  -Edouard CLEMENCEAU  </br>
+  -Remi GENTIL</br> 
   </li>
 </ul>
 
