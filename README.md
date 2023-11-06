@@ -5,7 +5,7 @@
     Ce Dépôt est destiné à l'équipe : Les Ponges 
   </li>
   <li> Cette équipe est uniqement composé d'étudiant en BUT Informatique à l'IUT de Bayonne</li>
-  <li> Les Membres sont:  
+  <li> Les Membres sont:  </br>
   -Lucas MARROT  </br>
   -Clément MOURGUE </br>
   -Maxime MONTOURO  </br>
