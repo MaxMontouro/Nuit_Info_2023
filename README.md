@@ -15,6 +15,7 @@
   -Maxime ETCHECOPAR  </br>
   -Edouard CLEMENCEAU  </br>
   -Remi GENTIL</br> 
+  -Émile CAZALA </br>
   </li>
 </ul>
 
