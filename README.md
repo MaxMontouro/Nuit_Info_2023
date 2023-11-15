@@ -4,7 +4,7 @@
   <li>
     Ce Dépôt est destiné à l'équipe : Les Ponges 
   </li>
-  <li> Cette équipe est uniqement composé d'étudiant en BUT Informatique à 
+  <li> Cette équipe est uniquement composé d'étudiants en BUT Informatique à 
     <a href="https://www.iutbayonne.univ-pau.fr/">l'IUT de Bayonne</a></li>
   <li> Les Membres sont:  </br>
   -Lucas MARROT  </br>
