@@ -19,7 +19,7 @@
   -Émile CAZALAA (Équipier Back-End, Équipier Design) </br>
   </li>
   <li>
-    NB: Les membres pourront aussi se concentrer sur certains des défis proposés par les comenditaires de la <a href="https://www.nuitdelinfo.com/"> Nuit de l'info </a> </br>
+    NB: Les membres pourront aussi se concentrer sur certains des défis proposés par les commanditaires de la <a href="https://www.nuitdelinfo.com/"> Nuit de l'info </a> </br>
   </li>
 </ul>
 
