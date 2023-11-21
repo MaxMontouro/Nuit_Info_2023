@@ -7,16 +7,19 @@
   <li> Cette équipe est uniquement composé d'étudiants en BUT Informatique à 
     <a href="https://www.iutbayonne.univ-pau.fr/">l'IUT de Bayonne</a></li>
   <li> Les Membres sont:  </br>
-  -Lucas MARROT  </br>
-  -Yannis DUVIGNAU </br>
-  -Clément MOURGUE </br>
-  -Maxime MONTOURO  </br>
-  -Mattin GUIHENEUF  </br>
-  -Théo LAGUE  </br>
-  -Maxime ETCHECOPAR  </br>
-  -Edouard CLEMENCEAU  </br>
-  -Remi GENTIL</br> 
-  -Émile CAZALA </br>
+  -Lucas MARROT (Chef d'équipe, Sous-Chef Front-End, Sous-Chef Design) </br>
+  -Yannis DUVIGNAU (Chef Front-End, Chef Design, Sous-Chef Back-End) </br>
+  -Clément MOURGUE (Chef Back-End) </br>
+  -Maxime MONTOURO (Responsable Github, Équipier Back-End) </br>
+  -Mattin GUIHENEUF (Sous-Chef Documentation, Équipier Front-End, Équipier Design) </br>
+  -Théo LAGUE (Équipier Design)</br>
+  -Maxime ETCHECOPAR (Chef Documentation) </br>
+  -Edouard CLEMENCEAU (Équipier Front-End, Équipier Design, Équipier Documentation) </br>
+  -Remi GENTIL (Équipier Front-End, Équipier Design, Équipier Documentation</br> 
+  -Émile CAZALAA (Équipier Back-End, Équipier Design) </br>
+  </li>
+  <li>
+    NB: Les membres pourront aussi se concentrer sur certains des défis proposés par les comenditaires de la <a href="https://www.nuitdelinfo.com/"> Nuit de l'info </a> </br>
   </li>
 </ul>
 
