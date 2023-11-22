@@ -3,7 +3,7 @@
 <ul>
   <li>
     Ce Dépôt est destiné à l'équipe : Bab Les Ponges  <br>
-    Notre slogant est : 'équipe de BAB ne jetera pas Les Ponges <br>
+    Notre slogant est : L'équipe de BAB ne jetera pas Les Ponges <br>
   </li>
   <li> Cette équipe est uniquement composé d'étudiants en BUT Informatique à 
     <a href="https://www.iutbayonne.univ-pau.fr/">l'IUT de Bayonne</a></li>
