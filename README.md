@@ -2,7 +2,8 @@
 <h1> Composition de l'équipe </h1>
 <ul>
   <li>
-    Ce Dépôt est destiné à l'équipe : Les Ponges 
+    Ce Dépôt est destiné à l'équipe : Bab Les Ponges  <br>
+    Notre slogant est : 'équipe de BAB ne jetera pas Les Ponges <br>
   </li>
   <li> Cette équipe est uniquement composé d'étudiants en BUT Informatique à 
     <a href="https://www.iutbayonne.univ-pau.fr/">l'IUT de Bayonne</a></li>
@@ -15,7 +16,7 @@
   -Théo LAGUE (Équipier Design)</br>
   -Maxime ETCHECOPAR (Chef Documentation) </br>
   -Edouard CLEMENCEAU (Équipier Front-End, Équipier Design, Équipier Documentation) </br>
-  -Remi GENTIL (Équipier Front-End, Équipier Design, Équipier Documentation</br> 
+  -Remi GENTIL (Équipier Front-End, Équipier Design, Équipier Documentation)</br> 
   -Émile CAZALAA (Équipier Back-End, Équipier Design) </br>
   </li>
   <li>
