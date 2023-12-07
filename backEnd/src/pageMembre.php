@@ -15,6 +15,22 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd']))
     echo 'Votre login est '.$_SESSION['login'].' et votre mot de passe est '.$_SESSION['pwd'].'.';
     echo '<br />';
 
+
+    //Partie javascript
+    echo '
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
+    <script type="text/javascript">
+    var egg = new Egg();
+    egg.addCode("up,down,left,right,a,s,p,e,r,g,e", function() {
+      console.log("tout est ok");
+      window.location = "index.php";
+    }, "codeAsperge");
+
+    egg.listen();
+    </script>
+    ';
+
+
     // On affiche un lien pour fermer notre session
     echo '<a href="./logout.php">Déconnexion</a>';
 }
