@@ -126,7 +126,7 @@
         var iScreenScale = 8;
         var iQuality = 1; // 1 = best, 2 = half as many lines, etc.
         var bSmoothSprites = true;
-        var bMusic = true;
+        var bMusic = false;
         var _self = this;
     
         function setRenderMode(iValue) {
@@ -769,7 +769,7 @@
             oStatus.style.position = "absolute";
             oStatus.style.width = (45 * iScreenScale) + "px";
             oStatus.style.height = (3 * iScreenScale) + "px";
-            oStatus.style.left = ((iWidth - 34) / 2 * iScreenScale) + "px";
+            oStatus.style.left = 50+((iWidth - 34) / 2 * iScreenScale) + "px";
             oStatus.style.top = (31 * iScreenScale) + "px";
             oStatus.style.color = "silver";
             oStatus.style.fontStyle = "bold";

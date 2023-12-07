@@ -14,11 +14,9 @@
     </head>
     <body>
         <script src="multiplayer.js"></script>
-        <br />Joueurs
-        <select id="players">
+        <br /> 1 Joueur
+        <select id="players"style="visibility:hidden;">
             <option value="1" selected="selected">1</option>
-            <option value="2" >2</option>
-            <option value="3">3</option>
         </select>
         <!--br />Quality:
         <select id="quality">
@@ -35,11 +33,12 @@
         <select id="rendermode">
             <option value="0" selected="selected">Single Canvas</option>
             <option value="1">Per-line canvas</option>
-        </select>-->&nbsp;&nbsp;Musique:
-        <select id="music">
-            <option value="0">Off</option>
-            <option value="1" selected="selected">On</option>
-        </select>&nbsp;&nbsp;<button onclick="MarioKart.reset()">Reset Game</button>
+        </select>-->&nbsp;&nbsp;
+        <select id="music" style="visibility:hidden">
+            <option value="0" selected="selected">Off</option>
+            <option value="1" >On</option>
+        </select>&nbsp;&nbsp;
+        <button onclick="MarioKart.reset()">Reset Game</button>
         <script>
             function onPlayersChange() {
                 var oList = document.getElementById("players");
@@ -75,6 +74,5 @@
         
         <div id="mariokartcontainer" style="height:400px;position:relative;">
     </div>
-        <p>Afin d'éviter d'avoir le téléchargement constant de la musique, vous pouvez directement la désactiver avec le bouton</p>
     </body>
 </html>
