@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Where is Asperge</title>
+</head>
+
+<body>
+    <h1 style="text-align:center; position:absolute; top:1%;">Where is Asperge ?</h1>
+    <div id="imageContainer">
+        <img id="customImage" src="charlie.jpg" alt="Custom Image">
+    </div>
+    <button type="button" class="playButton">PLAY</button>
+    <div id="timerContainer">
+        <div id="timer">05:00</div>
+    </div>
+   
+    
+
+    <script language="javascript">
+        // Position curseur souris
+        let posX =0;
+        let posY =0;
+
+        // Position hitbox Charlie
+        let posXaCharlie = 918;
+        let posYaCharlie = 412;
+        let posXbCharlie = 946;
+        let posYbCharlie = 456;
+
+        function majMousePos(event) {
+            posX = event.clientX;
+            posY = event.clientY;
+            if ((posX > posXaCharlie && posX < posXbCharlie) && (posY > posYaCharlie && posY < posYbCharlie)) {
+            alert("Charlie trouvé !");
+            window.location = "../../../../../frontEnd/pageEaster.html";
+            }
+        }
+
+        function afficherMousePos(event) {
+            alert("PosX : " + event.clientX + "    PosY : " + event.clientY);
+        }
+
+        document.querySelector('.playButton').onclick = function() {
+            startTimer();
+            document.addEventListener("click", majMousePos);
+        };
+        //document.addEventListener("click", afficherMousePos); // Pour test
+
+        
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
