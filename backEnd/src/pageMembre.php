@@ -17,13 +17,14 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd']))
 
 
     //Partie javascript
+    $_SESSION['nomJeuSouhaite'] = 'AspergeJump';
     echo '
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
     <script type="text/javascript">
     var egg = new Egg();
     egg.addCode("up,down,left,right,a,s,p,e,r,g,e", function() {
       console.log("tout est ok");
-      window.location = "index.php";
+      window.location = "pageEaster.html";
     }, "codeAsperge");
 
     egg.listen();

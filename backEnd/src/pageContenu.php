@@ -5,10 +5,11 @@ session_start ();
     // On teste pour voir si nos variables ont bien été enregistrées
     echo '<html>';
     echo '<head>';
-    echo '<title>Page de notre section contenu</title>';
+    echo '<title>'.$_SESSION['nomJeuSouhaite'].'</title>';
     echo '</head>';
 
     echo '<body>';
+    echo '<h1>'.$_SESSION['nomJeuSouhaite'].'</h1>';
     echo '<br />';
 
 
@@ -44,7 +45,9 @@ session_start ();
         {
             //Le traitement à effectuer avec la réponse. Ici : affichage via alert, passage à une fonction, mise un jour du DOM (réponse dans xhr.responseText et dans xhr.responseXML).
             var resultat = JSON.parse(this.responseText);
-            document.getElementById("info").innerHTML = "Fiche de lutilisateur : Nom : " + resultat.nom + " Prénom : " + resultat.prenom + " Tel : " + resultat.telephone; 
+            document.getElementById("infoJeu").innerHTML = "Nom : " + resultat.nom + " Nom de la page : " + resultat.nomPage + " File à lancer : " + resultat.fileALancer +"\n\n\n";
+            //document.getElementById("jeu").innerHTML = ("jeux/"+resultat.fileALancer);
+            window.location= "jeux/"+resultat.fileALancer;
         }
         else 
         {
@@ -53,12 +56,11 @@ session_start ();
         }
     }
     }
-    xhr.open("GET","getJeu.php?nomJeu=2",true); //Requête AJAX en mode GET sur lurl donnée.
+    xhr.open("GET","getJeu.php?nomJeu='.$_SESSION['nomJeuSouhaite'].'",true); //Requête AJAX en mode GET sur lurl donnée.
     xhr.send(null); //Puisque cest une requête en GET
     </script>
-    <h1>Info sur le jeu 2</h1>
-    <div id="info">En attente de la réponse du serveur</div>
-    </script>
+    <div id="infoJeu"></div>
+    <div id="jeu"></div>
     ';
 
 
