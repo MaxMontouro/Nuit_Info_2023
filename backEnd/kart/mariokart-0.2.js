@@ -424,11 +424,9 @@
                     return;
                 }
                 oSpriteCtr.style.display = "block";
-
                 var fSpriteSize = Math.round(32 * fSpriteScale * fScale);
-
                 oSpriteCtr.style.left = Math.round(iX - fSpriteSize / 2) + "px";
-                oSpriteCtr.style.top = Math.round(iY - fSpriteSize/ 2) + "px";
+                oSpriteCtr.style.top = Math.round(iY - fSpriteSize / 2) + "px";
                 oImg.style.height = fSpriteSize + "px";
                 oSpriteCtr.style.width = 32 + "px";
                 oSpriteCtr.style.height = 64 + "px";
