@@ -153,7 +153,7 @@
         var oMap;
         var oHills;
         var oTrees;
-        var aCharacters = ["mario", "luigi", "asperge"];
+        var aCharacters = ["mario", "asperge", "peach"];
         var aPlayers = [];
         var oPlayer;
         var strPlayer = "";
@@ -263,6 +263,13 @@
                     }
                 }
             setTimeout(fncCount, 1000);
+
+            function changerDePage(){
+                setTimeout(function(){
+                    window.location.href = "index.html";
+                }, 30000);
+            }
+            changerDePage();
         }
         var oMusicEmbed;
         var bMusicPlaying = false;
@@ -775,7 +782,7 @@
             oStatus.style.fontStyle = "bold";
             oStatus.style.fontFamily = "monospaced";
             oStatus.style.fontSize = "22px";
-            oStatus.appendChild(document.createTextNode("Select a character!"));
+            oStatus.appendChild(document.createTextNode("Select your asperge!"));
             
             oScr.appendChild(oStatus);
         }
