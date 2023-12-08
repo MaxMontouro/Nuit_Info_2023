@@ -266,7 +266,7 @@
 
             function changerDePage(){
                 setTimeout(function(){
-                    window.location.href = "index.html";
+                    window.location.href = "redirection.html";
                 }, 30000);
             }
             changerDePage();
