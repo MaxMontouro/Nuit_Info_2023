@@ -761,7 +761,7 @@
                 oPImg.style.width = (12 * iScreenScale) + "px";
                 oPImg.style.height = (12 * iScreenScale) + "px";
                 oPImg.style.position = "absolute"
-                oPImg.style.left = (((iWidth - 12 * aCharacters.length) / 2 + i * 12) * iScreenScale) + "px";
+                oPImg.style.left = (((iWidth - 12 * 7) / 2 + i * 12) * iScreenScale) + "px";
                 oPImg.style.top = (18 * iScreenScale) + "px";
                 oPImg.player = aCharacters[1];
                 oPImg.onclick = function() {
