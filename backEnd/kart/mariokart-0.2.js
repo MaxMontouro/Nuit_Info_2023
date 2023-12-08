@@ -755,22 +755,22 @@
             oCtrStyle.width = (iWidth * iScreenScale) + "px";
             oCtrStyle.height = (iHeight * iScreenScale) + "px";
             oContainer.appendChild(oScr);
-            for (var i = 0; i < aCharacters.length; i++) {
+            //for (var i = 0; i < aCharacters.length; i++) {
                 var oPImg = document.createElement("img");
-                oPImg.src = "media/select_" + aCharacters[i] + ".png";
+                oPImg.src = "media/select_" + aCharacters[1] + ".png";
                 oPImg.style.width = (12 * iScreenScale) + "px";
                 oPImg.style.height = (12 * iScreenScale) + "px";
                 oPImg.style.position = "absolute"
                 oPImg.style.left = (((iWidth - 12 * aCharacters.length) / 2 + i * 12) * iScreenScale) + "px";
                 oPImg.style.top = (18 * iScreenScale) + "px";
-                oPImg.player = aCharacters[i];
+                oPImg.player = aCharacters[1];
                 oPImg.onclick = function() {
                     strPlayer = this.player;
                     _self.addPlayer(strPlayer);
                     _self.emit("playerSelect", strPlayer);
                 }
                 oScr.appendChild(oPImg);
-            }
+            //}
             
             oStatus = document.createElement("blink");
             oStatus.style.position = "absolute";
