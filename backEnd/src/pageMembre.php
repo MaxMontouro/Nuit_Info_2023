@@ -24,7 +24,7 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd']))
     var egg = new Egg();
     egg.addCode("up,down,left,right,a,s,p,e,r,g,e", function() {
       console.log("tout est ok");
-      window.location = "pageEaster.html";
+      window.location = "../../frontEnd/pageEaster.html";
     }, "codeAsperge");
 
     egg.listen();

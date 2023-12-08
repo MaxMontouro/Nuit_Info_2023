@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#timerContainer, #imageContainer {
+  display: none;
+  text-align: center;
+}
+
+.playButton {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.playButton:hover {
+  background-color: #2980b9;
+}
+
+#timer {
+  font-size: 2em;
+  color: #333;
+}
+
+#customImage {
+  max-width: 100%;
+  max-height: 100%;
+  visibility: visible;
+  position: absolute;
+  z-index: -3;
+  top: 10%;
+  left: 22%;
+}
+
+#timerContainer{
+  position: absolute;
+  top: 1%;
+  right: 2%;
+}
