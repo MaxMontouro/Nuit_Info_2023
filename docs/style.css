@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #096145;
+  padding: 30px 100px;
+  flex-wrap: wrap;
+}
+
+header logo {
+  position: absolute;
+  left: 48%;
+  top: 40px;
+}
+
+header campagne,
+header treetout,
+header documentation {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+
+}
+
+header h2 {
+  margin: 0;
+  font-size: 40px;
+  color: #FFF;
+  font-family: Sansita One;
+}
+
+header img {
+  max-width: 110px;
+  height: 100px;
+  order: 2;
+  margin-top: 10px;
+}
+
+.documentation {
+  font-family: Sansita One;
+  font-size: 50px;
+  color: #096145;
+  background-color: white;
+  height: 100px;
+  display: flex;
+  margin-left: 774.5px;
+  margin-top: 70px;
+  margin-bottom: -20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.block:nth-child(even) {
+  background-color: #99E2B4;
+}
+
+.block h2 {
+  padding: 20px;
+  font-family: 'Sansita One', cursive;
+}
+
+p,
+td {
+  font-family: 'Roboto', sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  /* Ajuster la marge intérieure des cellules */
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style pour les lignes impaires du tableau */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
