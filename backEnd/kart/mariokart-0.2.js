@@ -405,7 +405,7 @@
             oImg.style.left = "0px";
             oImg.src = "media/sprite_" + strSprite + (bSmoothSprites ? "_smooth" : "") + ".png";
             var oSpriteCtr = document.createElement("div");
-            oSpriteCtr.style.width = "32px";
+            oSpriteCtr.style.width = "64px";
             oSpriteCtr.style.height = "32px";
             oSpriteCtr.style.position = "absolute";
             oSpriteCtr.style.overflow = "hidden";
@@ -424,12 +424,14 @@
                     return;
                 }
                 oSpriteCtr.style.display = "block";
+
                 var fSpriteSize = Math.round(32 * fSpriteScale * fScale);
+
                 oSpriteCtr.style.left = Math.round(iX - fSpriteSize / 2) + "px";
-                oSpriteCtr.style.top = Math.round(iY - fSpriteSize / 2) + "px";
+                oSpriteCtr.style.top = Math.round(iY - fSpriteSize/ 2) + "px";
                 oImg.style.height = fSpriteSize + "px";
-                oSpriteCtr.style.width = fSpriteSize + "px";
-                oSpriteCtr.style.height = fSpriteSize + "px";
+                oSpriteCtr.style.width = 32 + "px";
+                oSpriteCtr.style.height = 64 + "px";
                 oImg.style.left = -Math.round(fSpriteSize * iActiveState) + "px";
             }
             this.setState = function(iState) {
